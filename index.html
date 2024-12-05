@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Веб-приложение</title>
+</head>
+<body>
+    <div class="novoe-jekran">
+        <div class="bokovaja-panel">
+            <div class="domoj-i-poisk">
+                <div class="glavnaja">
+                    <img alt="" class="vector-glavnoe" src="images/assets_352a1b95-3fa6-4f93-adb4-efafccc2542e.svg" />
+                </div>
+                <img alt="" class="vector-poisk" src="images/assets_32671859-175d-48a5-a1c7-3e12ec25a501.svg" />
+            </div>
+            <div class="bokovaja-panel-vazhnoe-i-nedavno-proslush">
+                <img alt="" class="mediateka" src="images/assets_a05fe0f1-a1bc-4800-815f-eeea166f99fe.svg" />
+                <div class="ljubimye-treki">
+                    <img alt="" class="vector-ljubimye" src="images/assets_3b178144-8266-4d1a-b314-53600a1431c9.svg" />
+                </div>
+                <img alt="" class="ab67616d0000b273904445d70d04eb24d6bb79ac" src="images/assets_6df8f309-d1c0-49aa-b7b8-35c7ae3ed713.png" />
+                <img alt="" class="taylor-swift-folklore-1" src="images/assets_ae4859d6-4a66-4c98-9755-7c2886437c52.png" />
+                <img alt="" class="taylor-swift-folklore-1" src="images/assets_d4ec880f-4332-4621-bc2f-eeeaa355c34e.png" />
+                <img alt="" class="taylor-swift-folklore-1" src="images/assets_d34e0250-f8d9-4b4d-a4a5-1f0ee1edb63b.png" />
+                <img alt="" class="taylor-swift-folklore-1" src="images/assets_9d6e0bf7-0d99-4937-913e-f456fba75090.png" />
+                <img alt="" class="taylor-swift-folklore-1" src="images/assets_63296c8e-2cb2-417e-bb03-f46f01ca4edd.png" />
+            </div>
+        </div>
+        <div class="novoe-five">
+            <div class="nazad-vpered-novoe-profil">
+                <div class="nazad-vpered">
+                    <img alt="" class="strelka-1" src="images/assets_71d65043-4be3-40d7-b6a8-6608f7e0b4b1.svg" />
+                    <div class="strelka-2">
+                        <img alt="" class="strelka-1" src="images/assets_b3ad267d-090f-45fb-9285-9a34a9fa5e50.svg" />
+                    </div>
+                </div>
+                <div class="novoe-i-profil">
+                    <div class="chto-novogo">
+                        <img
+                            alt=""
+                            class="vector-kolokol"
+                            src="images/assets_7739bc88-42e2-4606-8987-ade79103cb27.svg"
+                        />
+                    </div>
+                    <img
+                        alt=""
+                        class="profil"
+                        src="images/assets_813326b0-b721-4ec3-bbb4-d72fca6def5a.svg"
+                    />
+                </div>
+            </div>
+            <div class="chto-novogo-two">
+                <div class="nazvanie-i-opisanie-razdela">
+                    <p class="nazvanie">Что нового<br /></p>
+                    <p class="opisanie">Последние релизы любимых исполнителей.</p>
+                </div>
+                <div class="sovsem-novoe-i-ranee">
+                    <div class="novoe-three">
+                        <p class="novoe">Новое</p>
+                        <div class="novoe-two"> 
+                            <div class="novoe" id="new-albums-container">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ranee-two">
+                        <p class="ranee">Ранее</p>
+                        <div class="novoe-four" id="old-albums-container">
+                        </div>
+                    </div>
+                </div>           
+                <!-- Форма добавления -->
+                <div class="form-container">
+                    <h2>Добавить новый альбом</h2>
+                    <form id="album-form">
+                        <input type="text" id="title" placeholder="Название альбома" required />
+                        <input type="text" id="artist" placeholder="Исполнитель" required />
+                        <input type="text" id="coverImage" placeholder="Ссылка на обложку" required />
+                        <input type="text" id="releaseDate" placeholder="Дата релиза (дд-мм-гггг)" required />
+                        <select id="type">
+                            <option value="Альбом">Альбом</option>
+                            <option value="Сингл">Сингл</option>
+                        </select>
+                        <button type="submit">Добавить альбом</button>
+                    </form>
+                </div>               
+            </div>
+        </div>
+        <div class="igraet-sejchas-two">
+            <div class="igraet-sejchas">
+                <img alt="" class="ikonka-treka" src="images/assets_8aee56fb-fde5-447e-8ef6-5ebb1be46c17.png" />
+                <div class="nazvanie-i-artist">
+                    <p class="nazvanie-treka">the 1</p>
+                    <p class="artist-two">Taylor Swift</p>
+                </div>
+            </div>
+            <div class="progress-i-pauza">
+                <div class="nazad-pauza-vpered">
+                    <img alt="" class="vector-nazad" src="images/assets_9716d692-e835-497c-b16f-e6a5b495e746.svg" />
+                    <img alt="" class="carbonpause-outline" src="images/assets_c753d1a6-cdc7-4747-9e13-318d15e34b6d.svg" />
+                    <img alt="" class="vector-nazad" src="images/assets_c248e616-d8e4-4b35-bdeb-73e737c115d8.svg" />
+                </div>
+                <div class="progress">
+                    <p class="num-016">0:16</p>
+                    <img alt="" class="frame-38" src="images/assets_a47de685-0ae2-4b02-89d9-99750b233aad.svg" />
+                    <p class="num-016">3:30</p>
+                </div>
+            </div>
+            <div class="funkcii">
+                <div class="tekst-pesni">
+                    <img alt="" class="tekst-pesni" src="images/assets_91d4c3b4-b542-4aa6-b959-21b08a71b9ad.svg" />
+                </div>
+                <div class="ochered">
+                    <img alt="" class="ochered" src="images/assets_5ef80159-72ce-4eaa-93f8-88a6ff5fa42f.svg" />
+                </div>
+                <div class="gromkost">
+                    <img alt="" class="foundationvolume" src="images/assets_42a30f53-d7cf-4d00-8984-632037f5d0db.svg" />
+                    <img alt="" class="line-6" src="images/assets_f5f96b7d-2f3a-4136-bb8e-991383807fc4.svg" />
+                </div>
+                <img alt="" class="group-fullskrin" src="images/assets_6a346913-16d2-4f23-8d6a-6f64356f77a6.svg" />
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,630 @@
+:root {
+
+    --basic-white: rgba(255, 255, 255, 1);
+    --black-screen: rgba(16, 16, 16, 1);
+    --dark-gray: rgba(45, 45, 45, 1);
+    --fav-green: rgba(50, 156, 215, 1);
+    --gray: rgba(152, 152, 152, 1);
+    --more-gray: rgba(112, 112, 112, 1);
+
+    --inter-20-bold-family: "Inter";
+    --inter-20-bold-size: 20px;
+    --inter-20-bold-weight: 700;
+    --inter-20-bold-line-height: normal;
+
+    --inter-21-bold-family: "Inter";
+    --inter-21-bold-size: 21px;
+    --inter-21-bold-weight: 700;
+    --inter-21-bold-line-height: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--inter-20-bold-family);
+    height: 100%; 
+    width: 100%;
+}
+
+
+.novoe-jekran {
+    background-color: var(--black-screen);
+    padding: 44px 52px 43px 123px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px; 
+}
+
+
+.bokovaja-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 21px;
+    bottom: 37.73px;
+    margin-bottom: 200 px;
+}
+
+.domoj-i-poisk {
+    background-color: var(--dark-gray);
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 17px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px; 
+}
+.glavnaja {
+    margin: 20px 0;
+    height: 41.27px;
+    width: 30px;
+    margin-bottom: 35px;
+}
+
+.vector-poisk {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+.bokovaja-panel-vazhnoe-i-nedavno-proslush {
+    background-color: var(--dark-gray);
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    margin-bottom: 260px;
+}
+
+.mediateka {
+    width: 41px;
+    height: 55px;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+
+.ljubimye-treki {
+    background-color: var(--fav-green);
+    margin: 10px 0;
+    padding: 14px 11.75px 14.61px 11px;
+    display: flex;
+    align-items: center;
+    height: 26.39px;
+    width: 32.25px;
+    border: 1px solid var(--dark-gray);
+}
+
+.vector-ljubimye {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.ab67616d0000b273904445d70d04eb24d6bb79ac {
+    margin: 24px 0;
+    height: 57px;
+    width: 57px;
+}
+
+.taylor-swift-folklore-1 {
+    width: 57px;
+    height: 57px;
+    margin-bottom: 10px;
+}
+
+.taylor-swift-folklore-1:not(:last-of-type) {
+    margin-bottom: 24px;
+  }
+
+.novoe-five {
+    background-color: var(--dark-gray);
+    border-radius: 15px;
+    padding: 17px 39px 31px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 60px; 
+}
+.nazad-vpered-novoe-profil {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.nazad-vpered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; 
+}
+
+.strelka-1 {
+    width: 43px;
+    height: 43px;
+    margin-right: 23px;
+}
+
+.strelka-2 {
+    width: 43px;
+    height: 43px;
+}
+
+.novoe-i-profil {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; 
+    justify-content: flex-end; 
+}
+
+.chto-novogo {
+    background-color: var(--dark-gray);
+    border-radius: 100px;
+    padding: 4px 5px 4px 6px;
+    display: flex;
+    align-items: center;
+    border: 3px solid var(--more-gray);
+}
+
+.vector-kolokol {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.chto-novogo {
+    margin-right: 56px;
+    width: 40px;
+    height: 40px;
+}
+
+.profil {
+    width: 46px;
+    height: 60px;
+}
+
+.chto-novogo-two {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nazvanie-i-opisanie-razdela {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nazvanie {
+    height: 42px;
+    width: 223px;
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--basic-white);
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.opisanie {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--gray);
+}
+
+.sovsem-novoe-i-ranee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.novoe-three {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.novoe-three::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--gray);
+    margin-top: 5px;
+}
+
+
+.novoe {
+    height: 42px;
+    width: 223px;
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--basic-white);
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.novoe-two {
+    height: 177px;
+}
+
+.ikonka-nazvanie-artist-tip-kogda {
+    margin-right: 115px;
+    display: flex;
+    align-items: center;
+}
+
+.ssylka-na-al-bom {
+    margin-right: 36px;
+    width: 115px;
+    height: 110px;
+}
+
+.nazvanie-artist-tip-kogda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 317px;
+}
+
+.nazvanie-artist {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nazvanie-novoe {
+    width: 245px;
+    color: var(--basic-white);
+    margin-bottom: 5px;
+    font-family: var(--inter-21-bold-family);
+    font-size: var(--inter-21-bold-size);
+    font-weight: var(--inter-21-bold-weight);
+    line-height: var(--inter-21-bold-line-height);
+}
+
+.artist {
+    width: 245px;
+    color: var(--more-gray);
+    font-family: var(--inter-20-bold-family);
+    font-size: var(--inter-20-bold-size);
+    font-weight: var(--inter-20-bold-weight);
+    line-height: var(--inter-20-bold-line-height);
+}
+
+.tip-kogda {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tip {
+    width: 106px;
+    color: var(--gray);
+    margin-right: 20px;
+    font-family: var(--inter-20-bold-family);
+    font-size: var(--inter-20-bold-size);
+    font-weight: var(--inter-20-bold-weight);
+    line-height: var(--inter-20-bold-line-height);
+}
+
+.kogda {
+    width: 160px;
+    color: var(--gray);
+    font-family: var(--inter-20-bold-family);
+    font-size: var(--inter-20-bold-size);
+    font-weight: var(--inter-20-bold-weight);
+    line-height: var(--inter-20-bold-line-height);
+}
+
+.knopka-play {
+    width: 67px;
+    height: 69px;
+    position: relative;
+}
+
+.knopka-play:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+.ellipse-1 {
+    width: 68px;
+    height: 68px;
+    background-color: var(--fav-green);
+    border-radius: 50%;
+    position: relative;
+}
+
+.vector-pljej {
+    width: 26.6px;
+    height: 32.47px;
+    position: absolute;
+    left: 20.69px;
+    top: 18.26px;
+}
+
+.ranee-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ranee {
+    height: 42px;
+    width: 223px;
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--basic-white);
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.novoe-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 177px;
+}
+
+.ikonka-nazvanie-artist-tip-kogda {
+    margin-right: 115px;
+    display: flex;
+    align-items: center;
+}
+
+.ssylka-na-al-bom {
+    margin-right: 36px;
+    width: 115px;
+    height: 110px;
+}
+
+.nazvanie-artist-tip-kogda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 317px;
+}
+
+.nazvanie-artist {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nazvanie-two {
+    width: 245px;
+    color: var(--basic-white);
+    margin-bottom: 5px;
+    font-family: var(--inter-21-bold-family);
+    font-size: var(--inter-21-bold-size);
+    font-weight: var(--inter-21-bold-weight);
+    line-height: var(--inter-21-bold-line-height);
+}
+
+.artist {
+    width: 245px;
+    color: var(--more-gray);
+    font-family: var(--inter-20-bold-family);
+    font-size: var(--inter-20-bold-size);
+    font-weight: var(--inter-20-bold-weight);
+    line-height: var(--inter-20-bold-line-height);
+}
+
+.tip {
+    width: 106px;
+    color: var(--gray);
+    margin-right: 20px;
+    font-family: var(--inter-20-bold-family);
+    font-size: var(--inter-20-bold-size);
+    font-weight: var(--inter-20-bold-weight);
+    line-height: var(--inter-20-bold-line-height);
+}
+
+.kogda {
+    width: 160px;
+    color: var(--gray);
+    font-family: var(--inter-20-bold-family);
+    font-size: var(--inter-20-bold-size);
+    font-weight: var(--inter-20-bold-weight);
+    line-height: var(--inter-20-bold-line-height);
+}
+
+.igraet-sejchas-two {
+    background-color: var(--black-screen);
+    padding: 16px 22px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    z-index: 10;
+    height: 60px;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.igraet-sejchas {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ikonka-treka {
+    width: 72px;
+    height: 70px;
+    border-radius: 15px;
+    align-self: center;
+    margin-right: 2%; 
+}
+
+.ikonka-treka:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.nazvanie-i-artist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 302px;
+    margin: 0 5%; 
+}
+
+.nazvanie-treka {
+    width: 302px;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--basic-white);
+    margin-bottom: 0px;
+}
+
+.artist-two {
+    width: 302px;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--more-gray);
+}
+
+.progress-i-pauza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.nazad-pauza-vpered {
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.vector-nazad {
+    width: 16px;
+    height: 20px;
+}
+
+.vector-nazad:not(:last-of-type) {
+    margin-right: 32px;
+}
+
+.carbonpause-outline {
+    width: 39px;
+    height: 39px;
+    margin-right: 32px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    width: 769px;
+}
+
+.num-016 {
+    height: 22px;
+    width: 39px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.num-016:not(:last-of-type) {
+    margin-right: 26px;
+}
+
+.frame-38 {
+    width: 639px;
+    margin-right: 26px;
+}
+
+.funkcii {
+    display: flex;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.tekst-pesni {
+    margin-right: 35px;
+    width: 34px;
+    height: 37px;
+}
+
+.ochered {
+    margin-right: 35px;
+    width: 37px;
+    height: 37px;
+}
+
+.gromkost {
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.foundationvolume {
+    width: 37px;
+    height: 37px;
+    margin-right: 6px;
+}
+
+.line-6 {
+    width: 113px;
+}
+
+.group-fullskrin {
+    width: 24px;
+    height: 24px;
+}
+
+.form-container {
+    margin-top: 50px;
+}
+
+.form-container h2 {
+    margin-bottom: 25px;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--basic-white);
+    display: flex;
+}
